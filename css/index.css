@@ -1,6 +1,4 @@
-.barra_superior{
-  min-height: 4rem;
-}
+
 div[class*="columna"]{
   min-height: 50rem;
 }
@@ -8,6 +6,15 @@ div[class*="bloque"]{
   height: 25rem;
   overflow: scroll;
 }
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* estas no se si van o no aquí */
+
 .columna-chat, .columna-news{
   padding: 0 !important;
 }
@@ -19,8 +26,10 @@ div[class*="bloque"]{
 }
 
 .logo{
-  width: 40px;
+  width: 60px;
   margin-top: 0.5rem;
+  margin-left:1rem;
+  margin-right:1rem;
   float: left;
 }
 .contenedor-noticias{
