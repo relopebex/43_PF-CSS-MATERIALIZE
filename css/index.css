@@ -1,6 +1,7 @@
 
 div[class*="columna"]{
   min-height: 50rem;
+  margin-left: 1rem;
 }
 div[class*="bloque"]{
   height: 25rem;
@@ -37,17 +38,6 @@ div[class*="bloque"]{
   min-height: 50rem;
   padding: 0.5rem;
 }
-.responsive-img{
-  border: 0.6rem solid #ff8f00;
-  border-radius: 5px;
-}
-
-.buscar-campo{
-  float: left;
-  margin-left: 1rem;
-  margin-top: 0.5rem;
-  width: 70%;
-}
 .barra-superior .row{
   margin-bottom: 0;
 }
@@ -69,6 +59,10 @@ div[class*="bloque"]{
   }
 }
 
-.card{
-  width: 300px;
+.rotate-90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
