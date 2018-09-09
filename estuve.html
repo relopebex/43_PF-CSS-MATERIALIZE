@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Vincular los estilos de materialize -->
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <title>Proyecto Final de Materialize CSS</title>
   </head>
   <body>
@@ -14,22 +15,23 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
 
-    <div class="navbar-fixed"> <!-- para una barra de navegación fija en la psrte sup de la pabtalla-->
-      <!-- barra de navegación -->
-      <nav>
-        <div class="nav-wrapper">
-          <a class="brand-logo left" href="#">Soy un trotamundos</a>
-          <ul class="right hide-on-med-and-small">
-            <li> <a href="index.html"><i class="material-icons left" >home</i>Inicio</a> </li>
-            <li class="active"> <a href="estuve.html"><i class="material-icons left" >location_on</i>Estuve en</a> </li>
-            <li> <a href="mejores.html"><i class="material-icons left" >star</i>Mejores Viajes</a> </li>
-            <li> <a href="recomendados.html"><i class="material-icons left" >announcement</i>Recomendaciones</a> </li>
-          </ul>
+    <div class="row">
+      <div class="barra-superior">
+        <div class="navbar-fixed"> <!-- para una barra de navegación fija en la psrte sup de la pabtalla-->
+          <nav>
+            <div class="nav-wrapper">
+              <img src="img/logoviajes.jpg" alt="" class="logo">
+              <a href="#!" class="brand-logo hide-on-med-only"> Creando mi propio destino</a>
+              <ul class="right hide-on-small-only">
+                <li class="active"> <a href="index.html"><i class="material-icons left" >home</i>Inicio</a> </li>                  <li> <a href="estuve.html"><i class="material-icons left" >location_on</i>Estuve</a> </li>
+                <li> <a href="mejores.html"><i class="material-icons left" >star</i>Mejores</a> </li>
+                <li> <a href="recomendados.html"><i class="material-icons left" >announcement</i>Recomiendo</a> </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-      </nav>
-    </div>
-
-
+      </div>
+    </div>   <!-- es el de row -->
   </body>
 
 </html>
