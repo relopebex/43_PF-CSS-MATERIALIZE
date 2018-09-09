@@ -68,3 +68,7 @@ div[class*="bloque"]{
     padding: 0 !important;
   }
 }
+
+.card{
+  width: 300px;
+}
