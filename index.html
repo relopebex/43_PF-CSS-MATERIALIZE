@@ -11,38 +11,33 @@
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/materialize-rsociales.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <title>Proyecto Final de Materialize CSS</title>
+    <title>Proyecto Final Materialize CSS</title>
   </head>
   <body>
     <!-- Vinculación del código JavaScript necesario para que funcione materialize-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
 
-    <div class="row">
-      <!-- para una barra de navegación fija en la parte sup de la pabtalla-->
-      <div class="col S12">
-        <div class="navbar-fixed">
-        <nav>
-          <div class="nav-wrapper">
-            <img src="img/logoviajes.jpg" alt="" class="logo">
-            <a href="#!" class="brand-logo hide-on-med-only"> Creando mi propio destino</a>
-            <ul class="right hide-on-small-only">
-              <li class="active"> <a href="index.html"><i class="material-icons left" >home</i>Inicio</a> </li>
-              <li> <a href="estuve.html"><i class="material-icons left" >location_on</i>Estuve</a> </li>
-              <li> <a href="mejores.html"><i class="material-icons left" >star</i>Mejores</a> </li>
-              <li> <a href="recomendados.html"><i class="material-icons left" >announcement</i>Recomiendo</a> </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <img src="img/logoviajes.jpg" alt="" class="logo">
+          <a href="#!" class="brand-logo hide-on-med-only"> Creando mi propio destino</a>
+          <ul class="right hide-on-small-only">
+            <li class="active"> <a href="index.html"><i class="material-icons left" >home</i>Inicio</a> </li>
+            <li> <a href="estuve.html"><i class="material-icons left" >location_on</i>Estuve</a> </li>
+            <li> <a href="mejores.html"><i class="material-icons left" >star</i>Mejores</a> </li>
+            <li> <a href="recomendados.html"><i class="material-icons left" >announcement</i>Recomiendo</a> </li>
+          </ul>
+        </div>
+      </nav>
     </div>
 
     <div class="row">
       <!-- Redes sociales y Galería de fotos -->
-      <div class="s12 blue lighten-3">
+      <div class="col s12 blue lighten-3 hide-on-small-only">
         <div class="col s1 m1 l1 indigo lighten-1 columna-grupos hide-on-small-only">
-          <div class="leftside">
+          <div class="ladoizq">
             <ul>
               <li><i class="fa fa-facebook"></i></li>
               <li><i class="fa fa-twitter"></i></li>
@@ -54,32 +49,91 @@
         </div>
 
         <div class="col s4 m4 l4 indigo lighten-2 columna-principal">
-          <img class="materialboxed z-depth-3" width="400" src="img/guanajuato.jpg" data-caption="Guanajuato, México">
+          <img class="responsive-img materialboxed z-depth-3" width="400" src="img/guanajuato.jpg" data-caption="Guanajuato, México">
           <br>
-          <img class="materialboxed z-depth-3" width="400" src="img/zacatecas 017.jpg" data-caption="Zacatecas, México">
+          <img class="responsive-img materialboxed z-depth-3" width="400" src="img/zacatecas 017.jpg" data-caption="Zacatecas, México">
         </div>
         <div class="col s4 m4 l4 indigo lighten-3 columna-principal">
           <br>
           <br>
           <br>
-          <img class="materialboxed z-depth-3 rotate-90" width="450" src="img/Madrid.jpg" data-caption="Madrid España">
+          <img class="responsive-img materialboxed z-depth-3 rotate-90" width="450" src="img/Madrid.jpg" data-caption="Madrid España">
         </div>
 
         <!-- columna derecha con fotos -->
         <div class="col s3 m3 l3 indigo lighten-4 columna-principal">
-          <div class="row">
-          <!-- fotos -->
-            <div class="s12">
-              <img class="materialboxed z-depth-3" width="290" src="img/Disneyworld 01.jpg" data-caption="Disneyworld, Florida EEUU">
+
+              <img class="responsive-img materialboxed z-depth-3" width="290" src="img/Disneyworld 01.jpg" data-caption="Disneyworld, Florida EEUU">
               <br>
-              <img class="materialboxed z-depth-3" width="290" src="img/Epcot 01.jpg" data-caption="Epcot Center, Florida EEUU">
+              <img class="responsive-img materialboxed z-depth-3" width="290" src="img/Epcot 01.jpg" data-caption="Epcot Center, Florida EEUU">
               <br>
-              <img class="materialboxed z-depth-3" width="290" src="img/Disneyworld 03.jpg" data-caption="Disneyworld, Florida EEUU">
+              <img class="responsive-img materialboxed z-depth-3" width="290" src="img/Disneyworld 03.jpg" data-caption="Disneyworld, Florida EEUU">
+
+        </div>
+      </div> <!-- es del S12 de Galería de Fotos -->
+
+    </div>   <!-- es el de row de las galerías de fotos-->
+
+    <!-- sección el chat y datos del autor -->
+    <div class="row">
+      <div class="col s12 light blue lighten-3">
+        <div class="col s9 light blue darken-3">   <!-- Chat -->
+          <div class="col s12">
+            <div class="card-panel grey lighten-5 z-depth-1">
+              <div class="row valign-wrapper">
+                <div class="col s4">
+                  <img src="img/torre eiffel.jpg" alt="" class="responsive-img"> <!-- notice the "circle" class -->
+                </div>
+                <div class="col s8">
+                  <h5>La Torre Eiffel</h5>
+                  <div class="chip">
+                    Publicado el 5 Sep 2018
+                    <i class="tiny material-icons">date_range</i>
+                  </div>
+                  <div class="chip">
+                    París, Francia
+                    <i class="tiny material-icons">location_on</i>
+                  </div>
+                  <br>
+                  <br>
+                  <p class="black-text flowtext">
+                    La Torre Eiffel se encuentra en un extremo del Cmap-de-Mars
+                    a la orilla del río Sena, en París, Francia
+                    y es uno de los mayores atractivos de la ciudad,
+                    del país y del mundo. Cada año es visitada por más
+                    de 8 millones de turistas de todo el mundo. La torre
+                    es el monumento de pago más visitado del mundo.
+                    <br>
+                    <br>
+                    La Torre Eiffel, inicialmente llamada la tour de 300 mètres,
+                    es una estructura de hierro pudelado diseñada por los
+                    ingenieros Maurice Koechlin y Émile Nouguier, y
+                    construida por el ingeniero francés Alexandre Gustave Eiffel
+                    y sus colaboradores para la Exposición Universal de 1889 en París.
+                    Fue construida en dos años, dos meses y cinco días,
+                    y en su momento generó cierta controversia entre los
+                    artistas de la época, que la veían como un monstruo de hierro
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div> <!-- es del S2 de Galería de Fotos -->
 
-    </div>   <!-- es el de row -->
+        <div class="col s3 light blue darken-5">    <!-- Datos del autor -->
+          <div class="col s12 blue lighten-2">
+            <div class="card large">
+              <img class= "circle responsive-img columna-autor" src="img/RLP_Image.png" width="150">
+              <div class="card-content">
+                <h5 class="center-align">Perfil del autor</h5>
+                <p class="center-align flowtext">Rebeca LP, es amante de los viajes,
+                  nacionales e internacionales. Desde 1996, cada semana publica una artículo sobre algún lugar turístico,
+                  o bien, de algún lugar perdido en los vastos confines de nuestro mundo. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

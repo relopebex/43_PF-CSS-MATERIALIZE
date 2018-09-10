@@ -15,7 +15,10 @@ div[class*="bloque"]{
 }
 
 /* estas no se si van o no aquí */
-
+.columna-autor{
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
 .columna-chat, .columna-news{
   padding: 0 !important;
 }
