@@ -1,4 +1,15 @@
 
+/* Estilo al body */
+.imagen-fondo {
+  background: url("../img/mar01.jpg");
+  back
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* width: 100%;
+  height: 100%;  */
+}
+
 div[class*="columna"]{
   min-height: 50rem;
   margin-left: 1rem;
