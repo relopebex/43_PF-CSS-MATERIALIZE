@@ -5,34 +5,32 @@
     <meta name="viewport" content="width=device-witdh, inital-scale=1, maximum-scale=1.0"/>
     <!-- Vincular las fuentes de los iconos de Google -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
     <!-- Vincular los estilos de materialize -->
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <title>Proyecto Final de Materialize CSS</title>
+    <link href="css/materialize-rsociales.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Proyecto Final Materialize CSS</title>
   </head>
-  <body>
+  <body class="imagen-fondo">
     <!-- Vinculación del código JavaScript necesario para que funcione materialize-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
 
-    <div class="row">
-      <div class="barra-superior">
-        <div class="navbar-fixed"> <!-- para una barra de navegación fija en la psrte sup de la pabtalla-->
-          <nav>
-            <div class="nav-wrapper">
-              <img src="img/logoviajes.jpg" alt="" class="logo">
-              <a href="#!" class="brand-logo hide-on-med-only"> Creando mi propio destino</a>
-              <ul class="right hide-on-small-only">
-                <li> <a href="index.html"><i class="material-icons left" >home</i>Inicio</a> </li>
-                <li class="active"> <a href="estuve.html"><i class="material-icons left" >location_on</i>Estuve</a> </li>
-                <li> <a href="mejores.html"><i class="material-icons left" >star</i>Mejores</a> </li>
-                <li> <a href="recomendados.html"><i class="material-icons left" >announcement</i>Recomiendo</a> </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
+    <nav class="nav-extended">
+      <div class="nav-wrapper">
+        <img src="img/logoviajes.jpg" alt="" class="logo">
+        <ul class="right hide-on-small-only">
+          <li> <a href="index.html"><i class="material-icons left" >home</i>Inicio</a> </li>
+          <li class="active"> <a href="estuve.html"><i class="material-icons left" >location_on</i>Estuve</a> </li>
+          <li> <a href="mejores.html"><i class="material-icons left" >star</i>Mejores</a> </li>
+          <li> <a href="recomendados.html"><i class="material-icons left" >announcement</i>Recomiendo</a> </li>
+        </ul>
       </div>
-    </div>   <!-- es el de row -->
+      <div class="nav-content">
+        <span class="nav-title">Creando mi propio destino</span>
+      </div>
+    </nav>
   </body>
-
 </html>
